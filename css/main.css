@@ -26,6 +26,25 @@ body, html {
     padding: 20px 0;
 }
 
+.return {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    colour: #999;
+}
+
+.return:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+.return:hover a {
+    text-decoration: none;
+}
+
 .event {
     padding: 20px;
     width: 100%;   
